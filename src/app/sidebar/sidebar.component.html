@@ -18,14 +18,14 @@
   </head>
   <body>
     <div class="wrapper d-flex align-items-stretch">
-      <nav id="sidebar" style="position: fixed;height:100vh">
-        <div class="custom-menu">
+      <nav id="sidebar" style="position:fixed; height:100vh">
+        <!-- <div class="custom-menu">
           <button
             type="button"
             id="sidebarCollapse"
             class="btn btn-primary"
           ></button>
-        </div>
+        </div> -->
         <div
           class="img bg-wrap text-center py-4"
           style="background-image: url(../../assets/Images/bg_1.jpg)"
@@ -51,10 +51,10 @@
             <a href="#" (click)="goTo('projectsDone')" ><span class="fa fa-gift mr-3"></span>Projects Done</a>
           </li>
           <li>
-            <a href="#"><span class="fa fa-trophy mr-3"></span>Education</a>
+            <a href="#" (click)="goTo('education')" ><span class="fa fa-trophy mr-3"></span>Education</a>
           </li>
           <li>
-            <a href="#"><span class="fa fa-cog mr-3"></span>Experience</a>
+            <a href="#" (click)="goTo('experience')" ><span class="fa fa-cog mr-3"></span>Experience</a>
           </li>
           <li>
             <a href="#"
@@ -68,7 +68,7 @@
       </nav>
 
       <!-- Page Content  -->
-      <div class="d-flex flex-column"  style="margin-left:35vh;height:300vh">
+      <div class="d-flex flex-column" style="margin-left:40vh;">
         <div id="aboutMe" class="p-4 p-md-5 pt-5">
             <h2 class="mb-4">About Me</h2>
             <p>
@@ -136,6 +136,48 @@
     
           <div id="projectsDone" class="p-4 p-md-5 pt-5">
             <h2 class="mb-4">Projects Done</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div id="education" class="p-4 p-md-5 pt-5">
+            <h2 class="mb-4">Education</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div id="experience" class="p-4 p-md-5 pt-5">
+            <h2 class="mb-4">Experience</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
